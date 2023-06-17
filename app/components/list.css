@@ -1,0 +1,14 @@
+
+.horizontal-grid--scroll{
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    padding: 1rem;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+}
+  
+.horizontal-grid--scroll > label {
+    scroll-snap-align: center;
+}
