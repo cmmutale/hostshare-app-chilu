@@ -12,7 +12,7 @@ function ViewListing() {
     <div className="max-w-5xl mx-auto">
       <div className="listing">
         <ListingHeader
-          title="Scenic Mountain Lodge on Sardis Lake, Clayton Ok."
+          title="Scenic Mountain Lodge on Sardis Lake, Clayton Ok"
           rating="4.91"
           reviews="242"
           hostType="SuperHost"
