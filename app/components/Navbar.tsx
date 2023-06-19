@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Searchbar from './Searchbar'
 import {TbWorld} from 'react-icons/tb'
 import { BiMenu } from 'react-icons/bi'
 import { HiUserCircle } from 'react-icons/hi2'
-import Logo from '../assests/Hostshare-icon.png'
 
 function Navbar() {
   return (
@@ -24,7 +23,7 @@ function Navbar() {
       </div>
       <div className="md:block hidden">
         <div className="navbar--last flex items-center gap-4">
-          <button className="rounded-full hover:bg-gray-100 p-2  bg-white ease-in-out duration-300">
+          <button className="rounded-full p-2 hover:bg-gray-100 bg-white ease-in-out duration-300">
             Host your home
           </button>
           <button className="rounded-full hover:bg-gray-100 p-2  bg-white ease-in-out duration-300">

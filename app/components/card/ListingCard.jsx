@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image';
 import { AiFillStar } from 'react-icons/ai'
 
-function ListingCard({image, link, title, distance, availability, price, rating}) {
+function ListingCard({image, link, title, distance, availability, price, rating, onClick}) {
   return (
-    <div className='card max-w-[400px] mx-auto relative'>
+    <div className='card max-w-[400px] mx-auto hover:shadow-2xl p-2 rounded-lg relative transition-all ease-in-out duration-500'>
         <label className=''>
-            <a href={link} target='_blank' className='space-y-4'>
+            <a href={link} target='_blank' className='space-y-4 text-left'>
                 <Image 
                     src={image}
                     alt='image'
