@@ -33,9 +33,9 @@ const MyList = ({ items }) => {
               return value;
             }
           })
-          .map((item) => (
+          .map((item, index) => (
             <ListingCard
-              key={item.id}
+              key={index}
               link={`/listing/${item.info.id}`}
               image={item.info.mainImage.url}
               title={`${item.info.location.city}, ${item.info.location.country.title}`}

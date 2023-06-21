@@ -48,6 +48,8 @@ function FilterList(){
     filterArray.push(element.title);
   });
 
+  console.log(typeof filterArray)
+
   return <FilterLister items={filterArray}/>
 }
 
